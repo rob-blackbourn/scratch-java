@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.7'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.7'
+
+    testImplementation 'junit:junit:4.12'
+}
