@@ -1,7 +1,6 @@
 package net.jetblack.feedbus.distributor;
 
 import java.net.Inet4Address;
-import java.net.UnknownHostException;
 
 public class Program {
 
