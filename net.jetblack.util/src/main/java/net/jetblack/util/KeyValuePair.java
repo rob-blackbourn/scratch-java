@@ -10,4 +10,7 @@ public class KeyValuePair<K, V> {
 	public final K Key;
 	public final V Value;
 
+	public static <K,V> KeyValuePair<K,V> create(K key, V value) {
+		return new KeyValuePair<K,V>(key, value);
+	}
 }

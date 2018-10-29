@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Strings {
 
-	public static String join(String separator, Iterator<String> iterator) {
+	public static String join(String separator, Iterator<?> iterator) {
 		
 		StringBuilder s = new StringBuilder();
 		
@@ -18,7 +18,7 @@ public class Strings {
 		return s.toString();
 	}
 	
-	public static String join(String separator, Collection<String> collection) {
+	public static String join(String separator, Collection<?> collection) {
 		return join(separator, collection.iterator());
 	}
 	
